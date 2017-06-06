@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Game</title>
+
+<!--CSS link-->
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!--Jquery link-->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+<h1>Crystals Collector!</h1>
+
+<div id="instructionsContainer">
+	<div id="instructions">
+	<p>You will be given a random number at the start of the game.</p>
+	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+	<p>You win the game by matching the total score to the random number, you lose the game if your total score goes above the random number.</p>
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+	<p>Each time the game starts, the values of the crystals will change.</p>
+	</div>
+</div> 
+
+<div id="randomNumber"></div>
+
+
+
+<div id="scoreBoard">
+	<div id="message"></div>
+	<div>
+		Wins: <span id="wins"></span>
+	</div>
+	<div>
+		Losses: <span id="losses"></span>
+	</div>
+</div>
+
+
+
+<div id="crystalContainer">
+	<span class="crystals pink"><img src="assets/images/Amber.jpg"></span>
+	<span class="crystals blue"><img src="assets/images/blue.jpg"></span>
+	<span class="crystals yellow"><img src="assets/images/onyx.jpg"></span>
+	<span class="crystals red"><img src="assets/images/turquoise.jpg"></span>
+</div>
+
+
+<div id="container2">
+	<div id="yourScore">Your total score is: </div>
+</div>
+
+
+<div id="container 3">
+	<div id="score"></div>
+</div>
+
+
+
+</body>
+</html>
