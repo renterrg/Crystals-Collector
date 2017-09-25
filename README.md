@@ -1,4 +1,4 @@
-#Crystalls Collector
+# Crystalls Collector
 
 An interactive game application where the user guesses the number of each crystall displayed on the screen, in order to match the random
 number generated for each round. 
